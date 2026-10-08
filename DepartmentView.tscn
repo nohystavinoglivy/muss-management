@@ -1,0 +1,295 @@
+[gd_scene format=3 uid="uid://dpaphbacdddm1"]
+
+[ext_resource type="Texture2D" uid="uid://bd0yu6o456wqa" path="res://references/AdobeColor-muss_management.jpeg" id="1_i8kjn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dfipr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ptb2r"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jl100"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ljyov"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sdarp"]
+
+[node name="DepartmentView" type="Control" unique_id=450673997]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1037046214]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.12941177, 0.17254902, 0.18039216, 1)
+
+[node name="AdobeColorMussManagement" type="Sprite2D" parent="." unique_id=1418418686]
+position = Vector2(1720, 66.00008)
+scale = Vector2(0.163125, 0.11916662)
+texture = ExtResource("1_i8kjn")
+
+[node name="LeftSideLine" type="Polygon2D" parent="." unique_id=712725052]
+color = Color(0.4627451, 0.46666667, 0.39607844, 1)
+polygon = PackedVector2Array(59, -36, 58, 1848, 89, 1845, 89, -28)
+
+[node name="Floor1" type="Control" parent="." unique_id=2117531226]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Areas" type="Control" parent="Floor1" unique_id=1002933890]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="General" type="Control" parent="Floor1/Areas" unique_id=755748506]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Lobby" type="Polygon2D" parent="Floor1/Areas/General" unique_id=127347930]
+color = Color(0.08723534, 0.12073032, 0.12681961, 1)
+polygon = PackedVector2Array(110, 32, 109, 329, 587, 335, 638, 270, 635, 98, 578, 32)
+
+[node name="ElevatorArea1" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1304565688]
+position = Vector2(-11, 0)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(658, 101, 655, 271, 727, 273, 722, 100)
+
+[node name="Hall_ExhibitRoom" type="Node2D" parent="Floor1/Areas/General" unique_id=1769348029]
+
+[node name="Hall1_ExhibitRoom" type="Polygon2D" parent="Floor1/Areas/General/Hall_ExhibitRoom" unique_id=172571893]
+position = Vector2(0, 11)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(329, 326, 329, 374, 363, 374, 359, 325)
+
+[node name="Hall2_ExhibitRoom" type="Polygon2D" parent="Floor1/Areas/General/Hall_ExhibitRoom" unique_id=1369125227]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(150, 334, 152, 383, 187, 383, 184, 335)
+
+[node name="ExhibitRoom1" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1047071863]
+position = Vector2(0, -23)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(113, 410, 430, 414, 430, 581, 340, 580, 342, 658, 108, 656)
+
+[node name="ExhibitRoom2" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1689937375]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(445, 573, 353, 572, 354, 633, 557, 635, 555, 343, 409, 340, 411, 385, 444, 386)
+
+[node name="Hall_Long" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1547827933]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(569, 494, 570, 540, 622, 543, 622, 670, 186, 673, 186, 738, 223, 736, 227, 697, 654, 699, 652.64514, 630.5793, 833.35236, 632.02606, 834, 645, 857, 645, 857.78253, 632.2216, 906.85876, 632.6145, 908, 645, 936, 645, 934.6704, 632.83716, 955, 633, 991, 632, 989, 575, 951, 574, 954, 586, 816.598, 584.145, 815, 573, 791, 573, 792.07983, 583.81396, 651.6816, 581.91846, 650, 497)
+
+[node name="StaffPrep" type="Node2D" parent="Floor1/Areas/General" unique_id=235472867]
+
+[node name="StaffPrep1" type="Polygon2D" parent="Floor1/Areas/General/StaffPrep" unique_id=523389571]
+position = Vector2(-2027.0001, 373.00006)
+scale = Vector2(2.8828115, 0.24861878)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(958, 431, 960, 792, 1086, 793, 1081, 435)
+
+[node name="StaffPrep2" type="Polygon2D" parent="Floor1/Areas/General/StaffPrep" unique_id=950632317]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(743, 649, 1102, 648, 1104, 742, 744, 736)
+
+[node name="Storage1" type="Polygon2D" parent="Floor1/Areas/General" unique_id=708570797]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(161, 747, 162, 876, 292, 879, 291, 746)
+
+[node name="HallMedium" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1668071157]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(856, 476, 852, 208, 828, 208, 827, 177, 895, 178, 899, 473)
+
+[node name="StaffElevator" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1812533661]
+position = Vector2(-55.84619, 0)
+scale = Vector2(1.0769231, 1)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(726, 98, 728, 271, 817, 271, 812, 96)
+
+[node name="Hall_ToCourtyard" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1217545919]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(1098, 512, 1105, 541, 1142, 542, 1142, 667, 1107, 667, 1108, 699, 1185, 699, 1179, 621, 1206, 619, 1202, 577, 1174, 579, 1169, 507)
+
+[node name="CourtyardBounds" type="Polygon2D" parent="Floor1/Areas/General" unique_id=1672185660]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(1205, 439, 1212, 766, 1450, 769, 1440, 672, 1455, 672, 1465, 770, 1513, 769, 1489, 433, 1211, 439, 1214, 458, 1475, 456, 1497, 749, 1479, 749, 1465, 654, 1416, 657, 1432, 751, 1232, 749, 1219, 438)
+
+[node name="OutdoorReception" type="Control" parent="Floor1/Areas" unique_id=1902407014]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -873.0
+offset_bottom = -873.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Hall_ToOutdoors" type="Polygon2D" parent="Floor1/Areas/OutdoorReception" unique_id=592123027]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(243, 898, 243, 808, 142, 809, 113, 779, 111, 643, 146, 643, 149, 768, 166, 784, 295, 785, 332, 765, 332, 719, 363, 719, 363, 780, 316, 807, 269, 809, 269, 897)
+
+[node name="ReceptionAnnex" type="Polygon2D" parent="Floor1/Areas/OutdoorReception" unique_id=1742488950]
+position = Vector2(21, 0)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(149, 747, 173, 774, 278, 774, 298, 752, 290, 470, 558, 469, 596, 448, 594, 353, 558, 319, 171, 319, 150, 363)
+
+[node name="Hall_Service" type="Polygon2D" parent="Floor1/Areas/OutdoorReception" unique_id=1959259733]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(164, 610, 162, 644, -39, 643, -37, 611)
+
+[node name="Hall_ToParking" type="Polygon2D" parent="Floor1/Areas/OutdoorReception" unique_id=1901031330]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(323, 688, 325, 720, 383, 719, 380, 688)
+
+[node name="Floor3" type="Control" parent="." unique_id=1404843353]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Areas" type="Control" parent="Floor3" unique_id=387821583]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="IESDept" type="Control" parent="Floor3/Areas" unique_id=1380415598]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StaffElevator" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1760822036]
+position = Vector2(-55.84619, 0)
+scale = Vector2(1.0769231, 1)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(726, 98, 728, 271, 817, 271, 812, 96)
+
+[node name="Hall1_Long" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=2051165334]
+position = Vector2(196, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(716, 185, 716, 215, 493, 216, 497, 546, 638, 545, 636, 511, 664, 512, 666, 545, 703, 547, 698, 510, 729, 510, 732, 546, 951, 546, 950, 572, 917, 572, 917, 613, 892, 613, 889.0642, 571.87463, 464, 571, 462, 506, 401, 506, 398, 472, 456, 475, 451.23096, 266.5253, 361, 266, 362, 225, 450.25302, 223.77588, 450, 185, 566, 184, 566, 167, 599, 167, 600.12494, 184.2275)
+
+[node name="Office_DeptHead" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=543713855]
+position = Vector2(210, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(373, 400, 375, 616, 230, 621, 221, 398)
+
+[node name="BreakRoom" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1241766107]
+position = Vector2(189, 114)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(594, 316, 599, 495, 757, 499, 753, 312)
+
+[node name="Hall_ToLounge" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1454230257]
+position = Vector2(185, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(770, 384, 768, 415, 854, 417, 854, 384)
+
+[node name="StaffLounge" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=409182939]
+position = Vector2(191, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(859, 534, 946, 533, 935, 302, 855, 304)
+
+[node name="MeetingRoom" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=712711681]
+position = Vector2(196, 105)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(466, 623, 947, 623, 955, 750, 470, 749)
+
+[node name="Hall1_Connecting" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=2007539548]
+position = Vector2(196, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(293, 626, 335, 624, 334, 676, 461, 677, 462, 719, 291, 720)
+
+[node name="Hall2_Long" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1875327820]
+position = Vector2(196, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(834, 180, 831, 212, 1122, 213, 1139, 783, 1173, 783, 1166, 657, 1185, 657, 1182, 631, 1159, 631, 1159, 567, 1182, 564, 1179, 535, 1153, 535, 1152, 347, 1176, 346, 1173, 317, 1152, 318, 1147, 176)
+
+[node name="Office_InterviewsLarge" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1258368633]
+position = Vector2(203, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(1171, 188, 1176, 470, 1290, 471, 1284, 387, 1359, 386, 1350, 178)
+
+[node name="Office_InterviewsSmall" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1713024482]
+position = Vector2(196, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(1191, 589, 1368, 588, 1358, 497, 1188, 498)
+
+[node name="Office_InterviewsMedium" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=803155233]
+position = Vector2(194, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(1191, 617, 1199, 771, 1375, 770, 1369, 614)
+
+[node name="StorageMaintenance" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=455537568]
+position = Vector2(204, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(469, 150, 469, 150, 348, 154, 348, 373, 236, 372, 235, 55, 471, 54)
+
+[node name="SafetyBlock" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=539680145]
+position = Vector2(196, 110)
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(502, 276, 503, 470, 547, 468, 542, 279)
+
+[node name="BriefingRoom" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1602617852]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(871, 128, 875, 232, 923, 231, 923, 325, 1021, 324, 1015, 119)
+
+[node name="Hall2_Connecting" type="Polygon2D" parent="Floor3/Areas/IESDept" unique_id=1838180388]
+color = Color(0.08627451, 0.11764706, 0.1254902, 1)
+polygon = PackedVector2Array(826, 164, 827, 209, 868, 208, 867, 161)
+
+[node name="MoveUpFloor" type="Polygon2D" parent="." unique_id=311265080]
+clip_children = 2
+color = Color(0.59607846, 0.14509805, 0.11764706, 1)
+polygon = PackedVector2Array(72, 17, 46, 97, 101, 97)
+
+[node name="Button" type="Button" parent="MoveUpFloor" unique_id=785608178]
+offset_left = 46.0
+offset_top = 22.0
+offset_right = 101.0
+offset_bottom = 98.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_dfipr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ptb2r")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_jl100")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ljyov")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_sdarp")
+
+[node name="MoveDownFloor" type="Polygon2D" parent="." unique_id=1877946927]
+clip_children = 2
+position = Vector2(146.00003, 894)
+rotation = -3.138495
+color = Color(0.59607846, 0.14509805, 0.11764706, 1)
+polygon = PackedVector2Array(72, 17, 46, 97, 101, 97)
+
+[node name="Button" type="Button" parent="MoveDownFloor" unique_id=413291722]
+offset_left = 46.0
+offset_top = 22.0
+offset_right = 101.0
+offset_bottom = 98.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_dfipr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ptb2r")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_jl100")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ljyov")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_sdarp")

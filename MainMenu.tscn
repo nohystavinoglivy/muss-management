@@ -1,0 +1,315 @@
+[gd_scene format=3 uid="uid://baeimaencnmva"]
+
+[ext_resource type="Texture2D" uid="uid://bd0yu6o456wqa" path="res://references/AdobeColor-muss_management.jpeg" id="1_yqorp"]
+[ext_resource type="FontFile" uid="uid://x2dhem7hkvv5" path="res://assets/fonts/Neutro-ExtraBold.otf" id="2_0ykhv"]
+[ext_resource type="FontFile" uid="uid://bl3glfnqw5uxu" path="res://assets/fonts/Neutro-Outline.otf" id="3_2wh52"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dfipr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ptb2r"]
+
+[node name="MainMenu" type="Control" unique_id=149104527]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1296406196]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.12941177, 0.17254902, 0.18039216, 1)
+
+[node name="MenuBackground" type="Polygon2D" parent="." unique_id=263703075]
+color = Color(0.32941177, 0.0627451, 0.047058824, 1)
+polygon = PackedVector2Array(1325, -25, 884, 292, 532, 955, 1783, 964, 1722, 119, 1665, 159, 1465, -29)
+
+[node name="Polygon2D" type="Polygon2D" parent="MenuBackground" unique_id=470236020]
+color = Color(0.32941177, 0.0627451, 0.047058824, 1)
+polygon = PackedVector2Array(1059, 197, -82, 206, -93, 363, 984, 363)
+
+[node name="Polygon2D3" type="Polygon2D" parent="MenuBackground" unique_id=1365899362]
+position = Vector2(-40, 273)
+color = Color(0.32941177, 0.0627451, 0.047058824, 1)
+polygon = PackedVector2Array(1059, 197, -82, 206, -15, 606, 733, 596)
+
+[node name="Polygon2D2" type="Polygon2D" parent="MenuBackground" unique_id=242527386]
+position = Vector2(73.19531, -182)
+scale = Vector2(1.1848959, 1)
+color = Color(0.32941177, 0.0627451, 0.047058824, 1)
+polygon = PackedVector2Array(1059, 197, -82.87253, 196, -93, 363, 984, 363)
+
+[node name="Building" type="Polygon2D" parent="." unique_id=709065946]
+clip_children = 2
+color = Color(0.5254902, 0.7294118, 0.91764706, 1)
+polygon = PackedVector2Array(548, 971, 933, 320, 1370, -19, 1433, -18, 1662, 279, 1679, 1195)
+
+[node name="Polygon2D12" type="Polygon2D" parent="Building" unique_id=1442086987]
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1675, 742, 789, 1065, 782, 1039, 1680, 686)
+
+[node name="Polygon2D13" type="Polygon2D" parent="Building" unique_id=1928690337]
+position = Vector2(-25, -62.000008)
+rotation = -0.05009937
+scale = Vector2(0.99999994, 0.99999994)
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1675, 742, 789, 1065, 782, 1039, 1680, 686)
+
+[node name="Polygon2D14" type="Polygon2D" parent="Building" unique_id=1905881363]
+position = Vector2(-132.99998, -64)
+rotation = -0.09297527
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1675, 742, 393.7558, 1205.7646, 386.7188, 1195.0652, 1680, 686)
+
+[node name="Polygon2D15" type="Polygon2D" parent="Building" unique_id=937758234]
+position = Vector2(-173, -101)
+rotation = -0.11636858
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1675, 742, 393.7558, 1205.7646, 386.7188, 1195.0652, 1663.0459, 690.76154)
+
+[node name="Polygon2D16" type="Polygon2D" parent="Building" unique_id=1009490418]
+position = Vector2(-197, -159)
+rotation = -0.11636858
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1669.4434, 730.77496, 393.7558, 1205.7646, 386.7188, 1195.0652, 1653.2296, 688.60724)
+
+[node name="Polygon2D17" type="Polygon2D" parent="Building" unique_id=1452682294]
+position = Vector2(-238.00002, -171)
+rotation = -0.14238863
+scale = Vector2(0.99999994, 0.99999994)
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1669.4434, 730.77496, 393.7558, 1205.7646, 386.7188, 1195.0652, 1653.2296, 688.60724)
+
+[node name="Polygon2D18" type="Polygon2D" parent="Building" unique_id=425257081]
+position = Vector2(-250, -232.00003)
+rotation = -0.14238863
+scale = Vector2(0.99999994, 0.99999994)
+color = Color(0.3510583, 0.50407845, 0.63311994, 1)
+polygon = PackedVector2Array(1656.5319, 734.50854, 393.7558, 1205.7646, 386.7188, 1195.0652, 1648.201, 708.0586)
+
+[node name="Polygon2D19" type="Polygon2D" parent="Building" unique_id=2024818606]
+color = Color(0.59607846, 0.14509805, 0.11764706, 1)
+polygon = PackedVector2Array(580, 927, 833, 503, 861, 462, 857, 490, 913, 407, 904, 449, 971, 346, 930, 475, 982, 390, 985, 416, 1054, 304, 1043, 367, 1091, 266, 1090, 364, 1141, 240, 1138, 393, 1195, 189, 1205, 346, 1245, 147, 1289, 316, 1307, 62, 1391, 339, 1393, 115, 1480, 232, 1457, 118, 1553, 155, 1682, 331, 1734, 235, 1235, -246, 814, 112)
+
+[node name="Polygon2D" type="Polygon2D" parent="Building" unique_id=1282689118]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1373, -27, 1637, 550, 1615, 587, 1373, -22)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Building" unique_id=1628434099]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1557, 978, 1334, 32, 1326, 37, 1495, 932)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Building" unique_id=1819147930]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1326, 916, 1283, 72, 1277, 77, 1302, 916)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Building" unique_id=2014008626]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1168, 905, 1232, 119, 1225, 131, 1148, 921)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Building" unique_id=871080931]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1046, 905, 1187, 143, 1180, 151, 1028, 926)
+
+[node name="Polygon2D6" type="Polygon2D" parent="Building" unique_id=621298486]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1141, 178, 940, 947, 917, 944, 1136, 184)
+
+[node name="Polygon2D7" type="Polygon2D" parent="Building" unique_id=460378855]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(863, 911, 1098, 223, 1088, 231, 837, 931)
+
+[node name="Polygon2D8" type="Polygon2D" parent="Building" unique_id=766902900]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(1053, 244, 1046, 250, 771, 934, 793, 934)
+
+[node name="Polygon2D9" type="Polygon2D" parent="Building" unique_id=1987789049]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(740, 907, 1020, 273, 1012, 282, 726, 902)
+
+[node name="Polygon2D10" type="Polygon2D" parent="Building" unique_id=1454862533]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(686, 903, 978, 306, 967, 316, 673, 905)
+
+[node name="Polygon2D11" type="Polygon2D" parent="Building" unique_id=2063896160]
+color = Color(0.76458687, 0.84480655, 0.9156845, 1)
+polygon = PackedVector2Array(641, 903, 945, 329, 938, 335, 627, 908)
+
+[node name="Polygon2D20" type="Polygon2D" parent="Building" unique_id=2010314261]
+color = Color(0.332133, 0.06343149, 0.04720129, 1)
+polygon = PackedVector2Array(848, 441, 930, 341, 1390, 11, 1433, 19, 1572, 152, 1577, 79, 1423, -89, 883, 302)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=255717283]
+layout_mode = 0
+offset_left = -1726.0
+offset_top = -38.0
+offset_right = -126.0
+offset_bottom = 2362.0
+texture = ExtResource("1_yqorp")
+
+[node name="OptionsBorder" type="Polygon2D" parent="." unique_id=1669320544]
+color = Color(0.59607846, 0.14509805, 0.11764706, 1)
+polygon = PackedVector2Array(26, 438, 24, 868, 582, 860, 641, 773, 91, 777, 103, 465)
+
+[node name="RunSelectionBackground" type="Polygon2D" parent="." unique_id=909749492]
+clip_children = 2
+color = Color(0.59607846, 0.14509805, 0.11764706, 1)
+polygon = PackedVector2Array(50, 41, 31, 165, 1044, 156, 1194, 43)
+
+[node name="RunSelection" type="ScrollContainer" parent="RunSelectionBackground" unique_id=1364199111]
+offset_left = 30.0
+offset_top = 41.0
+offset_right = 2378.0
+offset_bottom = 165.0
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 0
+scroll_horizontal_by_default = true
+
+[node name="Options" type="Control" parent="RunSelectionBackground/RunSelection" unique_id=579330540]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+offset_transform_scale = Vector2(2, 1)
+
+[node name="Organizer" type="HBoxContainer" parent="RunSelectionBackground/RunSelection/Options" unique_id=988807976]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Continue" type="PanelContainer" parent="RunSelectionBackground/RunSelection/Options/Organizer" unique_id=1257804475]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_dfipr")
+
+[node name="MarginContainer" type="MarginContainer" parent="RunSelectionBackground/RunSelection/Options/Organizer/Continue" unique_id=1155203399]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 5
+
+[node name="Head" type="Label" parent="RunSelectionBackground/RunSelection/Options/Organizer/Continue/MarginContainer" unique_id=1113398555]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 60
+text = "Day Placeholder   "
+
+[node name="Subhead" type="Label" parent="RunSelectionBackground/RunSelection/Options/Organizer/Continue/MarginContainer" unique_id=2080689919]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0.12941177, 0.17254902, 0.18039216, 1)
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 30
+text = "[pick up in current department]"
+
+[node name="New" type="PanelContainer" parent="RunSelectionBackground/RunSelection/Options/Organizer" unique_id=1979652186]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_dfipr")
+
+[node name="MarginContainer" type="MarginContainer" parent="RunSelectionBackground/RunSelection/Options/Organizer/New" unique_id=1651657110]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 5
+
+[node name="Head" type="Label" parent="RunSelectionBackground/RunSelection/Options/Organizer/New/MarginContainer" unique_id=1748325667]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 60
+text = "NEW management"
+
+[node name="Subhead" type="Label" parent="RunSelectionBackground/RunSelection/Options/Organizer/New/MarginContainer" unique_id=1171305321]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0.12941177, 0.17254902, 0.18039216, 1)
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 30
+text = "[start up from day 1]"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1946479232]
+layout_mode = 0
+offset_left = 112.0
+offset_top = 493.0
+offset_right = 597.0
+offset_bottom = 756.0
+
+[node name="Tutorial" type="PanelContainer" parent="VBoxContainer" unique_id=93354107]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ptb2r")
+
+[node name="Tutorial" type="Label" parent="VBoxContainer/Tutorial" unique_id=773912407]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 38
+text = "Tutorial"
+
+[node name="Database" type="PanelContainer" parent="VBoxContainer" unique_id=1170828321]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ptb2r")
+
+[node name="DatabaseLabel" type="Label" parent="VBoxContainer/Database" unique_id=1194707392]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 38
+text = "database"
+
+[node name="Options" type="PanelContainer" parent="VBoxContainer" unique_id=2111106329]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ptb2r")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Options" unique_id=1363185114]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="OptionsLabel" type="Label" parent="VBoxContainer/Options/VBoxContainer" unique_id=1668737892]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 38
+text = "options"
+
+[node name="SubLabel" type="Label" parent="VBoxContainer/Options/VBoxContainer" unique_id=1697442576]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4627451, 0.46666667, 0.39607844, 1)
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 25
+text = "and preferences"
+
+[node name="Placeholder" type="PanelContainer" parent="VBoxContainer" unique_id=1059144572]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ptb2r")
+
+[node name="AddingSoon" type="Label" parent="VBoxContainer/Placeholder" unique_id=1921341476]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0ykhv")
+theme_override_font_sizes/font_size = 38
+text = "Adding Soon"
+
+[node name="Soon" type="Label" parent="." unique_id=589608341]
+custom_maximum_size = Vector2(909, -1)
+layout_mode = 0
+offset_left = 27.0
+offset_top = 202.0
+offset_right = 936.0
+offset_bottom = 385.0
+theme_override_fonts/font = ExtResource("3_2wh52")
+theme_override_font_sizes/font_size = 40
+text = "There will be something here soon! I am sure of it!"
+autowrap_mode = 3
